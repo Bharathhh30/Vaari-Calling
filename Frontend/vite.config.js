@@ -7,4 +7,8 @@ export default defineConfig({
   build: {
     outDir: 'frontend/dist', // Ensure this matches the Vercel config
   },
+  server: {
+    host: '0.0.0.0',
+    port: 5173
+  }
 })
